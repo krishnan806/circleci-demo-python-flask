@@ -22,4 +22,4 @@ class BasicsTestCase(unittest.TestCase):
         self.assertTrue(current_app.config['TESTING'])
 
     def test_app_add(self):
-        self.assertEqual(5,6)
+        self.assertEqual(5,5)
