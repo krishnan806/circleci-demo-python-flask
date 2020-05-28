@@ -9,4 +9,4 @@ def test_math():
         'a' : 1,
         'b' : 2
     }
-    assert add(params) == 3
+    assert add(params) == 6
