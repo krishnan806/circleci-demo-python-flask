@@ -105,7 +105,7 @@ config = {
     'development': DevelopmentConfig,
     'testing': TestingConfig,
     'production': ProductionConfig,
-    'heroku': HerokuConfig,
+    # 'heroku': HerokuConfig,
     'unix': UnixConfig,
 
     'default': DevelopmentConfig
