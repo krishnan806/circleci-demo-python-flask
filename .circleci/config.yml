@@ -57,3 +57,9 @@ jobs:
       #         heroku run python manage.py deploy
       #         heroku restart
       #       fi
+  api_test:
+    executor: newman/postman-newman-docker
+    steps:
+      - checkout
+      - newman/newman-run:
+          collection: ./api-test/collection.json
